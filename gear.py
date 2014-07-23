@@ -3,6 +3,12 @@ Contains functionality for generating involute gears.
 
 Gears can be exported in SVG or DXF format.
 
+This module can be invoked from the command line. For help, use
+
+    python gear.py -h
+    
+See the testing/ directory for examples of using this module.
+
 """
 
 from geometry import primitives
